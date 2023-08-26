@@ -1,9 +1,16 @@
 [package]
-name = "guessing_game"
+name = "ch1"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "hello_cargo"
+path = "src/hello_cargo.rs"
+
+[[bin]]
+name = "listing1"
+path = "src/l1.rs"
+
 [dependencies]
-rand = "0.8.5"
